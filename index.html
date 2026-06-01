@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Medical Imaging Equipment Rental Texas | MR Biomed Tech Services</title>
+<meta name="description" content="Looking for medical imaging equipment rental in Texas? MR Biomed Tech Services offers affordable C-Arm rental, portable imaging solutions, and short-term surgical imaging rentals statewide."/>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --plum:       #2d1b4e;
+  --purple:     #3d2468;
+  --violet:     #5b3490;
+  --lavender:   #7c52b8;
+  --soft-lav:   #ede6f8;
+  --pale-lav:   #f7f3fd;
+  --white:      #ffffff;
+  --dark-bg:    #1a0f2e;
+  --text:       #1e1428;
+  --muted:      #6b5a82;
+  --border:     #d8cce8;
+  --link:       #5b3490;
+  --link-hover: #3d2468;
+  --accent:     #9b6fd4;
+  --body-bg:    #f5f0fc;
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+
+body{
+  font-family:'Outfit',sans-serif;
+  background:var(--body-bg);
+  color:var(--text);
+  font-size:16.5px;
+  line-height:1.88;
+}
+
+/* ══════════════════════════
+   TOP NAV — minimal bar
+══════════════════════════ */
+.topnav{
+  background:var(--dark-bg);
+  padding:10px 32px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:8px;
+  border-bottom:2px solid var(--violet);
+}
+.topnav .site-name{
+  font-family:'Spectral',serif;
+  color:var(--accent);
+  font-size:15px;
+  font-weight:600;
+  letter-spacing:0.3px;
+  text-decoration:none;
+}
+.topnav ul{
+  list-style:none;
+  display:flex;
+  flex-wrap:wrap;
+  gap:2px;
+}
+.topnav ul li a{
+  color:#9a88b8;
+  font-size:12.5px;
+  font-weight:500;
+  padding:5px 10px;
+  border-radius:2px;
+  text-decoration:none;
+  transition:background .15s,color .15s;
+}
+.topnav ul li a:hover{background:var(--violet);color:var(--white);}
+
+/* ══════════════════════════
+   HERO — dark purple layered
+══════════════════════════ */
+.hero{
+  background:var(--dark-bg);
+  position:relative;
+  overflow:hidden;
+  padding:64px 32px 56px;
+}
+.hero::before{
+  content:'';
+  position:absolute;
+  top:-100px;right:-100px;
+  width:500px;height:500px;
+  border-radius:50%;
+  background:radial-gradient(circle,rgba(91,52,144,.4) 0%,transparent 65%);
+  pointer-events:none;
+}
+.hero::after{
+  content:'';
+  position:absolute;
+  bottom:0;left:0;right:0;
+  height:3px;
+  background:linear-gradient(90deg,var(--lavender),var(--violet),transparent);
+}
+.hero-inner{
+  max-width:860px;
+  margin:0 auto;
+  position:relative;
+  z-index:2;
+}
+.hero-kicker{
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  color:var(--lavender);
+  margin-bottom:16px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+.hero-kicker::before{
+  content:'';
+  display:inline-block;
+  width:28px;height:2px;
+  background:var(--lavender);
+  border-radius:1px;
+}
+.hero h1{
+  font-family:'Spectral',serif;
+  font-size:clamp(26px,5vw,52px);
+  font-weight:700;
+  color:var(--white);
+  line-height:1.18;
+  max-width:720px;
+  margin-bottom:22px;
+}
+.hero h1 span{
+  color:var(--accent);
+  font-style:italic;
+}
+.hero-pills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+.hero-pills span{
+  background:rgba(91,52,144,.35);
+  border:1px solid rgba(124,82,184,.4);
+  color:#c4aee8;
+  font-size:12.5px;
+  font-weight:500;
+  padding:5px 14px;
+  border-radius:20px;
+}
+
+/* ══════════════════════════
+   LAYOUT
+══════════════════════════ */
+.wrap{
+  max-width:860px;
+  margin:0 auto;
+  padding:50px 22px 64px;
+}
+
+/* ══════════════════════════
+   ARTICLE
+══════════════════════════ */
+.article{
+  background:var(--white);
+  border-radius:4px;
+  padding:48px 54px;
+  box-shadow:0 4px 32px rgba(45,27,78,.09);
+  border-top:4px solid var(--lavender);
+}
+@media(max-width:600px){.article{padding:26px 20px;}}
+
+.article p{
+  margin-bottom:20px;
+  line-height:1.9;
+  font-size:16.5px;
+  color:var(--text);
+}
+
+/* headings */
+.article h2{
+  font-family:'Spectral',serif;
+  font-size:21px;
+  font-weight:700;
+  color:var(--plum);
+  margin:38px 0 13px;
+  line-height:1.3;
+}
+.article h2::after{
+  content:'';
+  display:block;
+  width:40px;
+  height:3px;
+  background:var(--lavender);
+  border-radius:1px;
+  margin-top:7px;
+}
+.article h3{
+  font-family:'Spectral',serif;
+  font-size:17px;
+  font-weight:600;
+  color:var(--violet);
+  margin:26px 0 10px;
+  font-style:italic;
+}
+
+strong{color:var(--plum);font-weight:600;}
+
+/* anchor */
+a{
+  color:var(--link);
+  font-weight:600;
+  text-decoration:none;
+  border-bottom:2px solid var(--soft-lav);
+  padding-bottom:1px;
+  transition:border-color .18s,color .18s;
+}
+a:hover{
+  color:var(--link-hover);
+  border-bottom-color:var(--lavender);
+}
+
+/* feature image */
+.feat-img{
+  width:100%;
+  display:block;
+  border-radius:4px;
+  margin:32px 0 28px;
+  max-height:430px;
+  object-fit:cover;
+  box-shadow:0 6px 30px rgba(45,27,78,.14);
+}
+
+/* platform inline block */
+.platform-inline{
+  background:var(--pale-lav);
+  border-left:4px solid var(--lavender);
+  border-radius:0 4px 4px 0;
+  padding:15px 20px;
+  margin:4px 0 24px;
+  font-size:15px;
+}
+.platform-inline .plat-tag{
+  font-size:10.5px;
+  font-weight:700;
+  letter-spacing:1.4px;
+  text-transform:uppercase;
+  color:var(--muted);
+  margin-bottom:4px;
+}
+.platform-inline a{
+  color:var(--violet);
+  font-weight:700;
+  border-bottom-color:rgba(91,52,144,.2);
+}
+.platform-inline a:hover{border-bottom-color:var(--violet);}
+
+/* thin rule */
+.rule{
+  border:none;
+  height:1px;
+  background:linear-gradient(90deg,var(--lavender),var(--border),transparent);
+  margin:36px 0;
+}
+
+/* CTA strip */
+.cta{
+  background:linear-gradient(135deg,var(--dark-bg),var(--plum));
+  border-radius:4px;
+  padding:32px 36px;
+  margin:40px 0 0;
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
+  border-top:3px solid var(--lavender);
+}
+.cta p{
+  color:#b09ed0;
+  font-size:15.5px;
+  max-width:490px;
+  margin:0 !important;
+  line-height:1.65;
+}
+.cta a{
+  flex-shrink:0;
+  background:var(--lavender);
+  color:var(--white);
+  font-weight:700;
+  font-size:14.5px;
+  padding:12px 26px;
+  border-radius:3px;
+  text-decoration:none;
+  border-bottom:none;
+  letter-spacing:0.3px;
+  transition:background .2s;
+}
+.cta a:hover{background:var(--violet);border-bottom:none;}
+
+/* ══════════════════════════
+   LOCAL SERVICES SECTION
+══════════════════════════ */
+.local-section{
+  background:var(--white);
+  border-radius:4px;
+  padding:40px 54px;
+  margin-top:32px;
+  box-shadow:0 4px 32px rgba(45,27,78,.08);
+  border-top:4px solid var(--violet);
+}
+@media(max-width:600px){.local-section{padding:26px 20px;}}
+
+.local-section h2{
+  font-family:'Spectral',serif;
+  font-size:22px;
+  font-weight:700;
+  color:var(--plum);
+  margin-bottom:6px;
+}
+.local-section h2::after{
+  content:'';
+  display:block;
+  width:40px;height:3px;
+  background:var(--lavender);
+  border-radius:1px;
+  margin-top:7px;
+  margin-bottom:16px;
+}
+
+/* GMB mention */
+.gmb-mention{
+  font-size:15.5px;
+  color:var(--text);
+  line-height:1.8;
+  margin-bottom:24px;
+}
+
+/* business info card */
+.biz-card{
+  background:var(--pale-lav);
+  border-radius:4px;
+  padding:24px 28px;
+  margin-bottom:28px;
+  border-left:4px solid var(--lavender);
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:14px 28px;
+}
+@media(max-width:540px){.biz-card{grid-template-columns:1fr;}}
+.biz-item{}
+.biz-label{
+  font-size:10.5px;
+  font-weight:700;
+  letter-spacing:1.3px;
+  text-transform:uppercase;
+  color:var(--muted);
+  margin-bottom:3px;
+}
+.biz-value{
+  font-size:15px;
+  font-weight:600;
+  color:var(--plum);
+  line-height:1.5;
+}
+.biz-value a{
+  color:var(--violet);
+  font-weight:700;
+  border-bottom-color:rgba(91,52,144,.2);
+}
+
+/* map image */
+.map-wrap{
+  border-radius:4px;
+  overflow:hidden;
+  margin:20px 0 8px;
+  box-shadow:0 4px 20px rgba(45,27,78,.12);
+  border:1px solid var(--border);
+  position:relative;
+}
+.map-wrap img{
+  width:100%;
+  display:block;
+  max-height:320px;
+  object-fit:cover;
+}
+.map-overlay{
+  position:absolute;
+  bottom:14px;right:14px;
+}
+.map-overlay a{
+  display:inline-block;
+  background:var(--plum);
+  color:var(--white);
+  font-size:12.5px;
+  font-weight:700;
+  padding:8px 16px;
+  border-radius:3px;
+  text-decoration:none;
+  border-bottom:none;
+  letter-spacing:0.3px;
+  transition:background .18s;
+}
+.map-overlay a:hover{background:var(--violet);border-bottom:none;}
+
+/* local cities */
+.local-cities{
+  margin-top:24px;
+}
+.local-cities h3{
+  font-family:'Spectral',serif;
+  font-size:18px;
+  font-weight:600;
+  color:var(--violet);
+  margin-bottom:12px;
+  font-style:italic;
+}
+.cities-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+  gap:10px;
+  margin-top:10px;
+}
+.city-chip{
+  background:var(--soft-lav);
+  border-radius:3px;
+  padding:10px 14px;
+  font-size:14px;
+  font-weight:600;
+  color:var(--plum);
+  border-left:3px solid var(--lavender);
+  line-height:1.4;
+}
+.city-chip span{
+  display:block;
+  font-size:11.5px;
+  font-weight:400;
+  color:var(--muted);
+  margin-top:2px;
+}
+</style>
+</head>
+<body>
+
+<!-- TOP NAV -->
+<nav class="topnav">
+  <a class="site-name" href="https://www.mrbiomedtechservices.com/">MR Biomed Tech Services</a>
+  <ul>
+    <li><a href="https://www.mrbiomedtechservices.com/">Home</a></li>
+    <li><a href="https://www.mrbiomedtechservices.com/about-us">About</a></li>
+    <li><a href="https://www.mrbiomedtechservices.com/services">Services</a></li>
+    <li><a href="https://www.mrbiomedtechservices.com/rental-services">Rentals</a></li>
+    <li><a href="https://www.mrbiomedtechservices.com/medical-equipment">Sale</a></li>
+    <li><a href="https://www.mrbiomedtechservices.com/blog">Blog</a></li>
+    <li><a href="https://www.mrbiomedtechservices.com/contact-us">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-kicker">Texas Medical Equipment Specialists</div>
+    <h1>Medical Imaging Equipment<br/><span>Rental Texas</span></h1>
+    <div class="hero-pills">
+      <span>C-Arm Rental</span>
+      <span>Portable Imaging</span>
+      <span>Short-Term &amp; Long-Term</span>
+      <span>Statewide Delivery</span>
+    </div>
+  </div>
+</section>
+
+<!-- ARTICLE -->
+<div class="wrap">
+<article class="article">
+
+  <!-- P1 — Home link -->
+  <p>
+    Not every facility needs to own imaging equipment outright. Short-term procedures, facility expansions, equipment downtime, and seasonal patient volume spikes all create situations where renting makes far more financial sense than buying. <strong>Medical imaging equipment rental Texas</strong> gives healthcare providers fast access to clinical-grade systems without the capital outlay, maintenance obligations, or long-term commitment that ownership requires. At <a href="https://www.mrbiomedtechservices.com/" target="_blank">Medical Imaging Equipment Solutions Texas</a>, we provide flexible rental solutions for C-arms, portable imaging units, and surgical imaging systems delivered and set up anywhere across Texas.
+  </p>
+
+  <p>
+    Texas healthcare facilities — from large hospital networks in Houston and Dallas to independent surgical centers in smaller cities — regularly turn to <strong>medical imaging rental Texas</strong> to bridge operational gaps. A planned equipment upgrade, a broken unit awaiting parts, or a sudden increase in procedure volume can all be managed efficiently with the right rental partner on standby.
+  </p>
+
+  <!-- FEATURE IMAGE — mid content -->
+  <img
+    src="https://i.pinimg.com/1200x/75/3e/9c/753e9ccfec73947f11b888647923854b.jpg"
+    alt="Medical Imaging Equipment Rental Texas"
+    class="feat-img"
+    loading="lazy"
+  />
+
+  <h2>C-Arm Rental Texas — The Most Requested Imaging Rental</h2>
+
+  <p>
+    Among all <strong>hospital imaging equipment rental</strong> categories, C-arm systems are consistently the most requested. Orthopedic surgeons, spine specialists, vascular teams, and pain management clinics all depend on real-time fluoroscopy guidance — and when their primary unit goes offline, procedures get cancelled and revenue stops. <strong>C-Arm rental Texas</strong> through our service means a replacement unit arrives quickly, is already calibrated, and is ready for clinical use without requiring your biomedical team to do any setup work.
+  </p>
+
+  <!-- BITBUCKET platform link -->
+  <div class="platform-inline">
+    <div class="plat-tag">Bitbucket</div>
+    <a href="https://mrbiomedtechservices009.bitbucket.io/" target="_blank">Advanced Biomedical Equipment Repair Solutions — Technical Resource Hub</a>
+  </div>
+
+  <p>
+    We maintain a ready inventory of mobile and full-size C-arm units from leading manufacturers. Each unit in our rental fleet goes through a complete inspection, calibration verification, and image quality check before delivery. You are not getting a machine pulled from storage — you are getting a clinically ready system that meets the same performance standards as a new unit.
+  </p>
+
+  <h2>Portable C-Arm Rental — Flexibility Without Compromise</h2>
+
+  <p>
+    <strong>Portable C-Arm rental services</strong> are ideal for facilities that need imaging coverage across multiple rooms or locations. Mobile units are lighter, easier to position, and can move between operating rooms without the logistical challenges of larger systems. For ambulatory surgery centers, mobile imaging vans, or clinics running procedures in multiple spaces, a portable rental is often the most practical solution available.
+  </p>
+
+  <p>
+    <strong>Mobile C-Arm rental Texas</strong> also serves providers who run temporary or pop-up surgical clinics in underserved areas. Rural Texas communities often lack consistent access to imaging-supported procedures — mobile rental units help bridge that gap without requiring a permanent equipment investment in locations where volume may not justify full ownership.
+  </p>
+
+  <div class="rule"></div>
+
+  <h2>Short-Term Rental — Covering Planned and Unplanned Downtime</h2>
+
+  <p>
+    <strong>Short term medical equipment rental</strong> is the fastest way to protect your procedure schedule when your primary imaging unit needs repair or maintenance. The moment your C-arm or ultrasound system goes offline, we can begin the process of deploying a replacement. Most Texas facilities within our service network receive delivery within 24 hours of a rental request for emergency situations.
+  </p>
+
+  <!-- GITHUB platform link -->
+  <div class="platform-inline">
+    <div class="plat-tag">GitHub</div>
+    <a href="https://mrbiomedtechservices.github.io/c-arm-repair-services-texas/" target="_blank">Trusted Medical Imaging Maintenance Hub — C-Arm Repair Services Texas</a>
+  </div>
+
+  <p>
+    Planned downtime is equally well-served by a short-term rental. Scheduled preventive maintenance, software upgrades, or equipment moves between departments all create windows where imaging support is still needed. Locking in a rental before the maintenance window starts keeps your schedule running without interruption.
+  </p>
+
+  <h2>Surgical Imaging Rental for Operating Rooms</h2>
+
+  <p>
+    <strong>Surgical imaging rental Texas</strong> covers the specific demands of the operating room environment. OR rentals need to be sterile-compatible, properly draped, and delivered by technicians who understand surgical suite protocols. Our team has experience working within clinical environments and follows the correct procedures for introducing rental equipment into sterile and semi-sterile spaces.
+  </p>
+
+  <p>
+    <strong>Diagnostic imaging equipment rental</strong> for surgical use also requires that the machine's image quality is verified before the first case. We conduct an on-site image quality check after setup and before the operating room team begins using the unit — so your surgeons start their day with confidence, not guesswork.
+  </p>
+
+  <!-- CLOUDFLARE platform link -->
+  <div class="platform-inline">
+    <div class="plat-tag">Cloudflare</div>
+    <a href="https://mrbiomedtechservices.github.io/hospital-bed-for-sale-texas/" target="_blank">Secure Healthcare Imaging Platform — Hospital Bed &amp; Equipment Texas</a>
+  </div>
+
+  <h2>Affordable Imaging Rental — Transparent Pricing Across Texas</h2>
+
+  <p>
+    <strong>Affordable imaging rental solutions</strong> start with honest pricing. We quote rental rates upfront based on the equipment type, rental duration, and delivery location — no hidden fees added after the fact. For facilities managing tight budgets, we offer weekly and monthly rate options that make it easy to plan costs without surprises.
+  </p>
+
+  <p>
+    <strong>Healthcare equipment rental Texas</strong> at the right price point also means factoring in what is included. Our rentals come with delivery, installation, basic operator orientation, and pickup at no extra charge. Facilities that need on-call technical support during the rental period can add that as an option — priced transparently before the agreement is signed.
+  </p>
+
+  <h2>C-Arm Calibration Services — Already Covered</h2>
+
+  <p>
+    Every rental unit we deliver is fully calibrated before leaving our facility. But if your rental period extends over several weeks, or if your biomedical team requires updated calibration documentation mid-rental, we schedule a compliant calibration check at no additional cost. For more information on our calibration standards and process, visit our detailed guide at <a href="https://c-arm-calibration-services-texas.netlify.app/" target="_blank">C-Arm Calibration Services in Texas</a>.
+  </p>
+
+  <!-- LINK — Services page -->
+  <p>
+    Our full range of imaging support goes beyond rental. From repair and calibration to long-term maintenance contracts, everything is available through one provider. Explore all available options at our <a href="https://www.mrbiomedtechservices.com/services" target="_blank">Biomedical Imaging Services</a> page to see how each service fits together into a complete equipment management solution for your facility.
+  </p>
+
+  <!-- LINK — Rental page -->
+  <p>
+    Ready to review specific rental packages and availability? Our dedicated <a href="https://www.mrbiomedtechservices.com/rental-services" target="_blank">Medical Equipment Rental Options</a> page lists current inventory, rental terms, and coverage areas across Texas — everything you need to make a fast, informed decision.
+  </p>
+
+  <!-- CTA -->
+  <div class="cta">
+    <p>Need imaging equipment delivered fast anywhere in Texas? Our rental team is ready — same-day response for emergency situations.</p>
+    <a href="https://www.mrbiomedtechservices.com/contact-us" target="_blank">Contact Medical Imaging Experts</a>
+  </div>
+
+</article>
+
+<!-- LOCAL SERVICES SECTION -->
+<section class="local-section">
+
+  <h2>Local Services &amp; Business Information</h2>
+
+  <!-- GMB Mention -->
+  <p class="gmb-mention">
+    Customers can also find <strong>Mr. BioMed Tech Services</strong> on <a href="https://share.google/ZFWa2HJT9TiQNcTei" target="_blank">Google Business Profile</a> for verified reviews and business information.
+  </p>
+
+  <!-- Business Info Card -->
+  <div class="biz-card">
+    <div class="biz-item">
+      <div class="biz-label">Business Name</div>
+      <div class="biz-value">MR. BIOMED TECH SERVICES</div>
+    </div>
+    <div class="biz-item">
+      <div class="biz-label">Phone Number</div>
+      <div class="biz-value"><a href="tel:+14697678853">+1 (469) 767-8853</a></div>
+    </div>
+    <div class="biz-item">
+      <div class="biz-label">Location</div>
+      <div class="biz-value">555 N 5th St Suite 109 B<br/>Garland, TX 75040</div>
+    </div>
+    <div class="biz-item">
+      <div class="biz-label">Google Business</div>
+      <div class="biz-value"><a href="https://share.google/ZFWa2HJT9TiQNcTei" target="_blank">View on Google Maps</a></div>
+    </div>
+  </div>
+
+  <!-- MAP IMAGE with link overlay -->
+  <div class="map-wrap">
+    <a href="https://maps.app.goo.gl/8KRFJFNZE4p9DCfM6" target="_blank">
+      <img
+        src="https://maps.googleapis.com/maps/api/staticmap?center=555+N+5th+St+Suite+109+B+Garland+TX+75040&zoom=15&size=860x320&maptype=roadmap&markers=color:purple%7Clabel:M%7C555+N+5th+St+Garland+TX+75040&style=feature:all%7Celement:geometry%7Ccolor:0x1a0f2e&style=feature:road%7Celement:geometry%7Ccolor:0x3d2468&style=feature:water%7Celement:geometry%7Ccolor:0x2d1b4e&key=AIzaSyD-placeholder"
+        alt="MR Biomed Tech Services Location — 555 N 5th St Garland TX"
+        onerror="this.onerror=null;this.src='https://maps.googleapis.com/maps/api/staticmap?center=Garland,TX&zoom=14&size=860x320&maptype=roadmap&markers=color:purple%7CGarland,TX+75040';"
+      />
+    </a>
+    <div class="map-overlay">
+      <a href="https://maps.app.goo.gl/8KRFJFNZE4p9DCfM6" target="_blank">Open in Google Maps ↗</a>
+    </div>
+  </div>
+  <p style="font-size:13px;color:var(--muted);margin-top:8px;margin-bottom:0;">📍 555 N 5th St Suite 109 B, Garland, TX 75040 — <a href="https://maps.app.goo.gl/8KRFJFNZE4p9DCfM6" target="_blank" style="font-size:13px;">Get Directions</a></p>
+
+  <!-- Local Cities -->
+  <div class="local-cities">
+    <h3>Areas We Serve Across Texas</h3>
+    <div class="cities-grid">
+      <div class="city-chip">Garland, TX<span>Headquarters</span></div>
+      <div class="city-chip">Dallas, TX<span>Primary Service Area</span></div>
+      <div class="city-chip">Fort Worth, TX<span>DFW Coverage</span></div>
+      <div class="city-chip">Houston, TX<span>Southeast Texas</span></div>
+      <div class="city-chip">San Antonio, TX<span>South Texas</span></div>
+      <div class="city-chip">Austin, TX<span>Central Texas</span></div>
+      <div class="city-chip">Carrollton, TX<span>North DFW</span></div>
+      <div class="city-chip">Plano, TX<span>North Dallas</span></div>
+      <div class="city-chip">Arlington, TX<span>DFW Metroplex</span></div>
+      <div class="city-chip">Lubbock, TX<span>West Texas</span></div>
+      <div class="city-chip">El Paso, TX<span>Far West Texas</span></div>
+      <div class="city-chip">Amarillo, TX<span>Panhandle Region</span></div>
+    </div>
+  </div>
+
+</section>
+
+</div><!-- end wrap -->
+
+</body>
+</html>
